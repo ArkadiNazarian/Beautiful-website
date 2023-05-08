@@ -1,0 +1,26 @@
+#second-menu {
+    height: 20rem;
+}
+
+#second {
+    animation: slidein 1s infinite;
+    height: 100%;
+}
+
+#first-slider-letter {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 100;
+    }
+}

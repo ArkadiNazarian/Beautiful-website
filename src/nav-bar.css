@@ -1,0 +1,21 @@
+#top_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 7rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#top_left_word{
+    display: flex;
+    flex-direction: row;
+}
+
+.top_left_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

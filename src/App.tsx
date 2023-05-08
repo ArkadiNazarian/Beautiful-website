@@ -1,24 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { NavBar } from './nav-bar';
+import { motion } from "framer-motion"
+import { Slider } from './slider';
 
 function App() {
+
+  const [mousePosition, setMousePosition] = useState({
+    x: 0,
+    y: 0
+  });
+
+
+  useEffect(() => {
+    const mouseMove = (e: any) => {
+      setMousePosition({
+        x: e.clientX,
+        y: e.clientY
+      })
+    }
+
+    window.addEventListener("mousemove", mouseMove);
+
+    return () => {
+      window.removeEventListener("mousemove", mouseMove);
+    }
+  }, []);
+
+  const variant = {
+    default: {
+      x: mousePosition.x,
+      y: mousePosition.y,
+    }
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <motion.div
+        animate="default"
+        variants={variant}
+        className='cursor'
+      />
+      <NavBar />
+      <Slider/>
     </div>
   );
 }
