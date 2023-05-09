@@ -1,26 +1,106 @@
 #second-menu {
-    height: 20rem;
+    height: 40rem;
 }
 
-#second {
-    animation: slidein 1s infinite;
-    height: 100%;
+#first-slider-word-1-letter{
+    animation: slidein 0.5s ;
 }
 
-#first-slider-letter {
-    height: 100%;
+#first-slider-word-2-letter{
+    animation: slidein 0.75s ;
+}
+
+#first-slider-word-3-letter{
+    animation: slidein 1s ;
+}
+
+#first-slider-word-4-letter{
+    animation: slidein 1.25s ;
+    padding-left: 0.5rem;
+}
+
+#first-slider-word-5-letter{
+    animation: slidein 1.5s ;
+}
+
+#first-slider-word-6-letter{
+    animation: slidein 1.75s ;
+}
+
+#first-slider-word-7-letter{
+    animation: slidein 2s ;
+}
+
+#first-slider-word-8-letter{
+    animation: slidein 2.25s ;
+}
+
+#first-slider-word-1-letter-out{
+    animation: slideout 0.5s ;
+    opacity: 0;
+}
+
+#first-slider-word-2-letter-out{
+    animation: slideout 0.75s ;
+    opacity: 0;
+}
+
+#first-slider-word-3-letter-out{
+    animation: slideout 1s ;
+    opacity: 0;
+}
+
+#first-slider-word-4-letter-out{
+    animation: slideout 1.25s ;
+    padding-left: 0.5rem;
+    opacity: 0;
+}
+
+#first-slider-word-5-letter-out{
+    animation: slideout 1.5s ;
+    opacity: 0;
+}
+
+#first-slider-word-6-letter-out{
+    animation: slideout 1.75s ;
+    opacity: 0;
+}
+
+#first-slider-word-7-letter-out{
+    animation: slideout 2s ;
+    opacity: 0;
+}
+
+#first-slider-word-8-letter-out{
+    animation: slideout 2.25s ;
+    opacity: 0;
+}
+
+#first-slider-word {
     display: flex;
     flex-direction: row;
 }
 
 @keyframes slidein {
     from {
-        transform: translateY(30%);
+        /* transform: translateY(30%); */
         opacity: 0;
     }
 
     to {
-        transform: translateY(0%);
+        /* transform: translateY(0%); */
         opacity: 100;
+    }
+}
+
+@keyframes slideout {
+    from {
+         
+        opacity: 100;
+    }
+
+    to {
+      
+        opacity: 0;
     }
 }
