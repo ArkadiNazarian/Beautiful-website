@@ -41,7 +41,7 @@ function App() {
         variants={variant}
         className='cursor'
       />
-      <NavBar />
+      {/* <NavBar /> */}
       <Slider/>
     </div>
   );

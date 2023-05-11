@@ -4,18 +4,22 @@ import useInterval from 'use-interval';
 
 export const Slider = () => {
 
-    const [in_out, set_in_out] = useState<boolean>(true)
+    const [in_out, set_in_out] = useState<boolean>(true);
+    const [slider, set_slider] = useState<boolean>(true);
 
     useInterval(
         () => {
-          set_in_out(!in_out)
+            set_in_out(!in_out)
+            set_slider(!slider)
         },
-        6000,
-      )
+        3000,
+    )
 
-    console.log(in_out)
+
     return (
         <div id="second-menu">
+            <div id={`${in_out?"slider-green-background":"second-slider-green-background"}`} ></div>
+            <div id={`${in_out?"slider-blue-background":"second-slider-blue-background"}`} ></div>
             <div id="first-slider-word">
                 <p id={`${in_out ? "first-slider-word-1-letter" : "first-slider-word-1-letter-out"}`}>Q</p>
                 <p id={`${in_out ? "first-slider-word-2-letter" : "first-slider-word-2-letter-out"}`}>U</p>

@@ -1,5 +1,40 @@
 #second-menu {
-    height: 40rem;
+    position: relative;
+    height: 100vh;
+}
+
+#slider-green-background{
+    position: absolute;
+    background-color: #acedbe;
+    z-index: 1;
+    height: 100%;
+    width: 0%;
+    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#slider-blue-background{
+    position: absolute;
+    top:0;
+    background-color: #a5d3ee;
+    height: 100%;
+    width: 60%;
+}
+
+#second-slider-green-background{
+    position: absolute;
+    top:0;
+    background-color: #acedbe;
+    height: 100%;
+    width: 60%;
+}
+
+#second-slider-blue-background{
+    position: absolute;
+    top:0;
+    background-color: #a5d3ee;
+    height: 100%;
+    width: 0%; 
+    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #first-slider-word-1-letter{
@@ -77,6 +112,9 @@
 }
 
 #first-slider-word {
+    position: absolute;
+    z-index: 9;
+    top:0;
     display: flex;
     flex-direction: row;
 }
@@ -102,5 +140,17 @@
     to {
       
         opacity: 0;
+    }
+}
+
+@keyframes slider {
+    from {
+         
+        width: 60%;
+    }
+
+    to {
+      
+        width: 0;
     }
 }
