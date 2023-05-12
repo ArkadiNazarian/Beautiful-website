@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './slider.css';
 import useInterval from 'use-interval';
+import kitchen from "./images/kitchen.png";
+import tv from "./images/tv.png";
 
 export const Slider = () => {
 
@@ -20,6 +22,8 @@ export const Slider = () => {
         <div id="second-menu">
             <div id={`${in_out?"slider-green-background":"second-slider-green-background"}`} ></div>
             <div id={`${in_out?"slider-blue-background":"second-slider-blue-background"}`} ></div>
+            <img src={ kitchen} id={`${in_out?"slider-first-image":"second-slider-first-image"}`} alt='first-image'/>
+            <img src={tv} id={`${in_out?"slider-second-image":"second-slider-second-image"}`} alt='second-image'/>
             <div id="first-slider-word">
                 <p id={`${in_out ? "first-slider-word-1-letter" : "first-slider-word-1-letter-out"}`}>Q</p>
                 <p id={`${in_out ? "first-slider-word-2-letter" : "first-slider-word-2-letter-out"}`}>U</p>

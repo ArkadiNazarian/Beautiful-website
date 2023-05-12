@@ -119,6 +119,41 @@
     flex-direction: row;
 }
 
+#slider-first-image{
+    position: absolute;
+    top:15rem;
+    left:10rem;
+    z-index: 1;
+    height: 50%;
+    width: 0%;
+    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#slider-second-image{
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    top:15rem;
+    left:10rem;
+}
+
+#second-slider-first-image{
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    top:15rem;
+    left:10rem;
+}
+
+#second-slider-second-image{
+    position: absolute;
+    height: 50%;
+    top:15rem;
+    left:10rem;
+    width: 0%; 
+    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @keyframes slidein {
     from {
         /* transform: translateY(30%); */
