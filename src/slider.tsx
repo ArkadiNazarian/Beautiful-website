@@ -14,7 +14,7 @@ export const Slider = () => {
             set_in_out(!in_out)
             set_slider(!slider)
         },
-        3000,
+        5000,
     )
 
 
@@ -34,6 +34,7 @@ export const Slider = () => {
                 <p id={`${in_out ? "first-slider-word-7-letter" : "first-slider-word-7-letter-out"}`}>E</p>
                 <p id={`${in_out ? "first-slider-word-8-letter" : "first-slider-word-8-letter-out"}`}>R</p>
             </div>
+            <div id={`${in_out?"first-slide-in-word-underline":"first-slide-out-word-underline"}`}></div>
         </div>
     )
 }
