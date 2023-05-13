@@ -7,12 +7,12 @@ import tv from "./images/tv.png";
 export const Slider = () => {
 
     const [in_out, set_in_out] = useState<boolean>(true);
-    const [slider, set_slider] = useState<boolean>(true);
+    const [out_in, set_out_in] = useState<boolean>(false);
 
     useInterval(
         () => {
             set_in_out(!in_out)
-            set_slider(!slider)
+            set_out_in(!out_in)
         },
         5000,
     )
@@ -83,6 +83,12 @@ export const Slider = () => {
                 <p id={`${in_out ? "first-slider-forth-word-13-letter" : "first-slider-forth-word-13-letter-out"}`}>3</p>
             </div>
             <div id={`${in_out ? "first-slide-in-word-underline" : "first-slide-out-word-underline"}`}></div>
+            <div id="second-slider-first-word">
+                <p id={`${out_in ? "second-slider-word-1-letter" : "second-slider-word-1-letter-out"}`}>1</p>
+                <p id={`${out_in ? "second-slider-word-2-letter" : "second-slider-word-2-letter-out"}`}>9</p>
+                <p id={`${out_in ? "second-slider-word-3-letter" : "second-slider-word-3-letter-out"}`}>9</p>
+            </div>
+            <div id={`${out_in ? "second-slide-in-word-underline" : "second-slide-out-word-underline"}`}></div>
         </div>
     )
 }
