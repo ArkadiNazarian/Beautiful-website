@@ -3,119 +3,119 @@
     height: 100vh;
 }
 
-#slider-green-background{
+#slider-green-background {
     position: absolute;
     background-color: #acedbe;
     z-index: 1;
     height: 100%;
     width: 0%;
-    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slider 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#slider-blue-background{
+#slider-blue-background {
     position: absolute;
-    top:0;
+    top: 0;
     background-color: #a5d3ee;
     height: 100%;
     width: 60%;
 }
 
-#second-slider-green-background{
+#second-slider-green-background {
     position: absolute;
-    top:0;
+    top: 0;
     background-color: #acedbe;
     height: 100%;
     width: 60%;
 }
 
-#second-slider-blue-background{
+#second-slider-blue-background {
     position: absolute;
-    top:0;
+    top: 0;
     background-color: #a5d3ee;
     height: 100%;
-    width: 0%; 
-    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 0%;
+    animation: slider 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#first-slider-word-1-letter{
-    animation: slidein 0.5s ;
+#first-slider-word-1-letter {
+    animation: slidein 0.5s;
 }
 
-#first-slider-word-2-letter{
-    animation: slidein 0.75s ;
+#first-slider-word-2-letter {
+    animation: slidein 0.75s;
 }
 
-#first-slider-word-3-letter{
-    animation: slidein 1s ;
+#first-slider-word-3-letter {
+    animation: slidein 1s;
 }
 
-#first-slider-word-4-letter{
-    animation: slidein 1.25s ;
+#first-slider-word-4-letter {
+    animation: slidein 1.25s;
     padding-left: 0.5rem;
 }
 
-#first-slider-word-5-letter{
-    animation: slidein 1.5s ;
+#first-slider-word-5-letter {
+    animation: slidein 1.5s;
 }
 
-#first-slider-word-6-letter{
-    animation: slidein 1.75s ;
+#first-slider-word-6-letter {
+    animation: slidein 1.75s;
 }
 
-#first-slider-word-7-letter{
-    animation: slidein 2s ;
+#first-slider-word-7-letter {
+    animation: slidein 2s;
 }
 
-#first-slider-word-8-letter{
-    animation: slidein 2.25s ;
+#first-slider-word-8-letter {
+    animation: slidein 2.25s;
 }
 
-#first-slider-word-1-letter-out{
-    animation: slideout 0.5s ;
+#first-slider-word-1-letter-out {
+    animation: slideout 0.5s;
     opacity: 0;
 }
 
-#first-slider-word-2-letter-out{
-    animation: slideout 0.75s ;
+#first-slider-word-2-letter-out {
+    animation: slideout 0.75s;
     opacity: 0;
 }
 
-#first-slider-word-3-letter-out{
-    animation: slideout 1s ;
+#first-slider-word-3-letter-out {
+    animation: slideout 1s;
     opacity: 0;
 }
 
-#first-slider-word-4-letter-out{
-    animation: slideout 1.25s ;
+#first-slider-word-4-letter-out {
+    animation: slideout 1.25s;
     padding-left: 0.5rem;
     opacity: 0;
 }
 
-#first-slider-word-5-letter-out{
-    animation: slideout 1.5s ;
+#first-slider-word-5-letter-out {
+    animation: slideout 1.5s;
     opacity: 0;
 }
 
-#first-slider-word-6-letter-out{
-    animation: slideout 1.75s ;
+#first-slider-word-6-letter-out {
+    animation: slideout 1.75s;
     opacity: 0;
 }
 
-#first-slider-word-7-letter-out{
-    animation: slideout 2s ;
+#first-slider-word-7-letter-out {
+    animation: slideout 2s;
     opacity: 0;
 }
 
-#first-slider-word-8-letter-out{
-    animation: slideout 2.25s ;
+#first-slider-word-8-letter-out {
+    animation: slideout 2.25s;
     opacity: 0;
 }
 
 #first-slider-word {
     position: absolute;
     z-index: 9;
-    top:24rem;
-    left:3rem;
+    top: 24rem;
+    left: 3rem;
     display: flex;
     flex-direction: row;
     color: #fdfbf3;
@@ -123,62 +123,105 @@
     font-weight: 700;
 }
 
-#first-slide-in-word-underline{
+#first-slide-in-word-underline {
     position: absolute;
     height: 0.25rem;
-    top:27rem;
-    left:3rem;
+    top: 27rem;
+    left: 3rem;
     width: 10rem;
     z-index: 9;
     background-color: #fdfbf3;
     animation: first_underline_in 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#first-slide-out-word-underline{
+#first-slide-out-word-underline {
     position: absolute;
     height: 0.25rem;
-    top:27rem;
-    left:3rem;
+    top: 27rem;
+    left: 3rem;
     width: 0rem;
     z-index: 9;
     background-color: #fdfbf3;
     animation: first_underline_out 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#slider-first-image{
+#slider-first-image {
     position: absolute;
-    top:15rem;
-    left:10rem;
+    top: 15rem;
+    left: 10rem;
     z-index: 1;
     height: 50%;
     width: 0%;
-    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slider 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#slider-second-image{
+#slider-second-image {
     position: absolute;
     height: 50%;
     width: 60%;
-    top:15rem;
-    left:10rem;
+    top: 15rem;
+    left: 10rem;
 }
 
-#second-slider-first-image{
+#second-slider-first-image {
     position: absolute;
     height: 50%;
     width: 60%;
-    top:15rem;
-    left:10rem;
+    top: 15rem;
+    left: 10rem;
 }
 
-#second-slider-second-image{
+#second-slider-second-image {
     position: absolute;
     height: 50%;
-    top:15rem;
-    left:10rem;
-    width: 0%; 
-    animation:slider 2s cubic-bezier(0.4, 0, 0.2, 1);
+    top: 15rem;
+    left: 10rem;
+    width: 0%;
+    animation: slider 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+#slider-green-background-on-image {
+    position: absolute;
+    background-color: #acedbe;
+    top: 41.3rem;
+    left:72rem;
+    z-index: 2;
+    height: 3rem;
+    width: 0%;
+    animation: background_on_image 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#slider-blue-background-on-image {
+    position: absolute;
+    top: 41.3rem;
+    left:72rem;
+    z-index: 1;
+    background-color: #a5d3ee;
+    height: 3rem;
+    width: 10rem;
+}
+
+#second-slider-green-background-on-image {
+    position: absolute;
+    top: 41.3rem;
+    left:72rem;
+    background-color: #acedbe;
+    z-index: 1;
+    height: 3rem;
+    width: 10rem;
+}
+
+#second-slider-blue-background-on-image {
+    position: absolute;
+    top: 41.3rem;
+    left:72rem;
+    background-color: #a5d3ee;
+    z-index: 2;
+    height: 3rem;
+    width: 0%;
+    animation: background_on_image 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 @keyframes slidein {
     from {
@@ -194,48 +237,60 @@
 
 @keyframes slideout {
     from {
-         
+
         opacity: 100;
     }
 
     to {
-      
+
         opacity: 0;
     }
 }
 
 @keyframes slider {
     from {
-         
+
         width: 60%;
     }
 
     to {
-      
+
         width: 0;
     }
 }
 
 @keyframes first_underline_in {
     from {
-         
+
         width: 0;
     }
 
     to {
-      
+
         width: 10rem;
     }
 }
 
 @keyframes first_underline_out {
     from {
-         
+
         width: 10rem;
     }
 
     to {
-      
+
+        width: 0;
+    }
+}
+
+@keyframes background_on_image {
+    from {
+
+        width: 10rem;
+    }
+
+    to {
+
         width: 0;
     }
 }
