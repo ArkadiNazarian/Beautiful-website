@@ -88,6 +88,35 @@ export const Slider = () => {
                 <p id={`${out_in ? "second-slider-word-2-letter" : "second-slider-word-2-letter-out"}`}>9</p>
                 <p id={`${out_in ? "second-slider-word-3-letter" : "second-slider-word-3-letter-out"}`}>9</p>
             </div>
+            <div id="second-slider-second-word">
+                <p id={`${out_in ? "second-slider-second-word-1-letter" : "second-slider-second-word-1-letter-out"}`}>D</p>
+                <p id={`${out_in ? "second-slider-second-word-2-letter" : "second-slider-second-word-2-letter-out"}`}>e</p>
+                <p id={`${out_in ? "second-slider-second-word-3-letter" : "second-slider-second-word-3-letter-out"}`}>s</p>
+                <p id={`${out_in ? "second-slider-second-word-4-letter" : "second-slider-second-word-4-letter-out"}`}>m</p>
+                <p id={`${out_in ? "second-slider-second-word-5-letter" : "second-slider-second-word-5-letter-out"}`}>o</p>
+                <p id={`${out_in ? "second-slider-second-word-6-letter" : "second-slider-second-word-6-letter-out"}`}>n</p>
+                <p id={`${out_in ? "second-slider-second-word-7-letter" : "second-slider-second-word-7-letter-out"}`}>t</p>
+                <p id={`${out_in ? "second-slider-second-word-8-letter" : "second-slider-second-word-8-letter-out"}`}>a</p>
+                <p id={`${out_in ? "second-slider-second-word-9-letter" : "second-slider-second-word-9-letter-out"}`}>n</p>
+                <p id={`${out_in ? "second-slider-second-word-10-letter" : "second-slider-second-word-10-letter-out"}`}>d</p>
+                <p id={`${out_in ? "second-slider-second-word-11-letter" : "second-slider-second-word-11-letter-out"}`}>o</p>
+            </div>
+            <div id="second-slider-third-word">
+                <p id={`${out_in ? "second-slider-third-word-1-letter" : "second-slider-third-word-1-letter-out"}`}>m</p>
+                <p id={`${out_in ? "second-slider-third-word-2-letter" : "second-slider-third-word-2-letter-out"}`}>i</p>
+                <p id={`${out_in ? "second-slider-third-word-3-letter" : "second-slider-third-word-3-letter-out"}`}>t</p>
+                <p id={`${out_in ? "second-slider-third-word-4-letter" : "second-slider-third-word-4-letter-out"}`}>o</p>
+                <p id={`${out_in ? "second-slider-third-word-5-letter" : "second-slider-third-word-5-letter-out"}`}>s</p>
+                <p id={`${out_in ? "second-slider-third-word-6-letter" : "second-slider-third-word-6-letter-out"}`}>c</p>
+                <p id={`${out_in ? "second-slider-third-word-7-letter" : "second-slider-third-word-7-letter-out"}`}>a</p>
+                <p id={`${out_in ? "second-slider-third-word-8-letter" : "second-slider-third-word-8-letter-out"}`}>f</p>
+                <p id={`${out_in ? "second-slider-third-word-9-letter" : "second-slider-third-word-9-letter-out"}`}>e</p>
+                <p id={`${out_in ? "second-slider-third-word-10-letter" : "second-slider-third-word-10-letter-out"}`}>t</p>
+                <p id={`${out_in ? "second-slider-third-word-11-letter" : "second-slider-third-word-11-letter-out"}`}>e</p>
+                <p id={`${out_in ? "second-slider-third-word-12-letter" : "second-slider-third-word-12-letter-out"}`}>r</p>
+                <p id={`${out_in ? "second-slider-third-word-13-letter" : "second-slider-third-word-13-letter-out"}`}>o</p>
+                <p id={`${out_in ? "second-slider-third-word-14-letter" : "second-slider-third-word-14-letter-out"}`}>s</p>
+            </div>
             <div id={`${out_in ? "second-slide-in-word-underline" : "second-slide-out-word-underline"}`}></div>
         </div>
     )

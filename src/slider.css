@@ -39,35 +39,59 @@
 
 #first-slider-word-1-letter {
     animation: slidein 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-2-letter {
     animation: slidein 0.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-3-letter {
     animation: slidein 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-4-letter {
     animation: slidein 1.25s;
     padding-left: 0.5rem;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-5-letter {
     animation: slidein 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-6-letter {
     animation: slidein 1.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-7-letter {
     animation: slidein 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-8-letter {
     animation: slidein 2.25s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-word-1-letter-out {
@@ -137,14 +161,23 @@
 
 #second-slider-word-1-letter {
     animation: slidein 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #second-slider-word-2-letter {
     animation: slidein 0.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #second-slider-word-3-letter {
     animation: slidein 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #second-slider-word-1-letter-out{
@@ -203,10 +236,12 @@
     height: 0.25rem;
     top: 17rem;
     left: 8rem;
-    width: 13rem;
+    width: 0rem;
     z-index: 9;
     background-color: #fdfbf3;
     animation: first_underline_in 2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 #second-slide-in-word-underline {
@@ -214,10 +249,12 @@
     height: 0.25rem;
     top: 20rem;
     left: 8rem;
-    width: 13rem;
+    width: 0rem;
     z-index: 9;
     background-color: #fdfbf3;
     animation: first_underline_in 2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 #first-slide-out-word-underline {
@@ -321,34 +358,58 @@
 
 #first-slider-second-word-1-letter {
     animation: second_word_in 0.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-2-letter {
     animation: second_word_in 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-3-letter {
     animation: second_word_in 1.25s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-4-letter {
     animation: second_word_in 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-5-letter {
     animation: second_word_in 1.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-6-letter {
     animation: second_word_in 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-7-letter {
     animation: second_word_in 2.25s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-8-letter {
     animation: second_word_in 2.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-second-word-1-letter-out{
@@ -393,80 +454,137 @@
 
 #first-slider-third-word-1-letter {
     animation: second_word_in 0.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-2-letter {
     animation: second_word_in 0.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-3-letter {
     animation: second_word_in 0.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-4-letter {
     animation: second_word_in 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-5-letter {
     animation: second_word_in 0.6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-6-letter {
     animation: second_word_in 0.7s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-7-letter {
     animation: second_word_in 0.85s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-8-letter {
     animation: second_word_in 0.9s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-9-letter {
     animation: second_word_in 1s;
     padding-left: 3rem;
     padding-right: 3rem;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-10-letter {
     animation: second_word_in 1.1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-11-letter {
     animation: second_word_in 1.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-12-letter {
     animation: second_word_in 1.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-13-letter {
     animation: second_word_in 1.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-14-letter {
     animation: second_word_in 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-15-letter {
     animation: second_word_in 1.6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-16-letter {
     animation: second_word_in 1.7s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-17-letter {
     animation: second_word_in 1.8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-18-letter {
     animation: second_word_in 1.9s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-19-letter {
     animation: second_word_in 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-third-word-1-letter-out{
@@ -568,56 +686,95 @@
 
 #first-slider-forth-word-1-letter {
     animation: second_word_in 0.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-2-letter {
     animation: second_word_in 0.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-3-letter {
     animation: second_word_in 0.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-4-letter {
     animation: second_word_in 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-5-letter {
     animation: second_word_in 0.6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-6-letter {
     animation: second_word_in 0.7s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-7-letter {
     animation: second_word_in 0.85s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-8-letter {
     animation: second_word_in 0.9s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-9-letter {
     animation: second_word_in 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
 #first-slider-forth-word-10-letter {
     animation: second_word_in 1.1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-11-letter {
     animation: second_word_in 1.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-12-letter {
     animation: second_word_in 1.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-13-letter {
     animation: second_word_in 1.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #first-slider-forth-word-1-letter-out{
@@ -684,6 +841,334 @@
 
 #first-slider-forth-word-13-letter-out{
     animation:slideout 1.4s;
+    opacity: 0;
+}
+
+#second-slider-second-word{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 9;
+    top: 15rem;
+    left: 24rem;
+    color: #fdfbf3;
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+#second-slider-third-word{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 9;
+    top: 24rem;
+    left: 8rem;
+    color: #fdfbf3;
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+#second-slider-second-word-1-letter {
+    animation: second_word_in 0.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-2-letter {
+    animation: second_word_in 0.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-3-letter {
+    animation: second_word_in 0.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-4-letter {
+    animation: second_word_in 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-5-letter {
+    animation: second_word_in 0.6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-6-letter {
+    animation: second_word_in 0.7s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-7-letter {
+    animation: second_word_in 0.8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-8-letter {
+    animation: second_word_in 0.9s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-9-letter {
+    animation: second_word_in 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-10-letter {
+    animation: second_word_in 1.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-11-letter {
+    animation: second_word_in 1.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-second-word-1-letter-out{
+    animation:slideout 0.2s;
+    opacity: 0;
+}
+
+#second-slider-second-word-2-letter-out{
+    animation:slideout 0.3s;
+    opacity: 0;
+}
+
+#second-slider-second-word-3-letter-out{
+    animation:slideout 0.4s;
+    opacity: 0;
+}
+
+#second-slider-second-word-4-letter-out{
+    animation:slideout 0.5s;
+    opacity: 0;
+}
+
+#second-slider-second-word-5-letter-out{
+    animation:slideout 0.6s;
+    opacity: 0;
+}
+
+#second-slider-second-word-6-letter-out{
+    animation:slideout 0.7s;
+    opacity: 0;
+}
+
+#second-slider-second-word-7-letter-out{
+    animation:slideout 0.8s;
+    opacity: 0;
+}
+
+#second-slider-second-word-8-letter-out{
+    animation:slideout 0.9s;
+    opacity: 0;
+}
+
+#second-slider-second-word-9-letter-out{
+    animation:slideout 1s;
+    
+    opacity: 0;
+}
+
+#second-slider-second-word-10-letter-out{
+    animation:slideout 1.1s;
+    opacity: 0;
+}
+
+#second-slider-second-word-11-letter-out{
+    animation:slideout 1.2s;
+    opacity: 0;
+}
+
+#second-slider-third-word-1-letter {
+    animation: second_word_in 0.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-2-letter {
+    animation: second_word_in 0.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-3-letter {
+    animation: second_word_in 0.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-4-letter {
+    animation: second_word_in 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-5-letter {
+    animation: second_word_in 0.6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    padding-right: 3rem;
+}
+
+#second-slider-third-word-6-letter {
+    animation: second_word_in 0.7s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-7-letter {
+    animation: second_word_in 0.8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-8-letter {
+    animation: second_word_in 0.9s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-9-letter {
+    animation: second_word_in 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-10-letter {
+    animation: second_word_in 1.1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-11-letter {
+    animation: second_word_in 1.2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-12-letter {
+    animation: second_word_in 1.3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-13-letter {
+    animation: second_word_in 1.4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-14-letter {
+    animation: second_word_in 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#second-slider-third-word-1-letter-out{
+    animation:slideout 0.2s;
+    opacity: 0;
+}
+
+#second-slider-third-word-2-letter-out{
+    animation:slideout 0.3s;
+    opacity: 0;
+}
+
+#second-slider-third-word-3-letter-out{
+    animation:slideout 0.4s;
+    opacity: 0;
+}
+
+#second-slider-third-word-4-letter-out{
+    animation:slideout 0.5s;
+    opacity: 0;
+}
+
+#second-slider-third-word-5-letter-out{
+    animation:slideout 0.6s;
+    padding-right: 3rem;
+    opacity: 0;
+}
+
+#second-slider-third-word-6-letter-out{
+    animation:slideout 0.7s;
+    opacity: 0;
+}
+
+#second-slider-third-word-7-letter-out{
+    animation:slideout 0.8s;
+    opacity: 0;
+}
+
+#second-slider-third-word-8-letter-out{
+    animation:slideout 0.9s;
+    opacity: 0;
+}
+
+#second-slider-third-word-9-letter-out{
+    animation:slideout 1s;
+    
+    opacity: 0;
+}
+
+#second-slider-third-word-10-letter-out{
+    animation:slideout 1.1s;
+    opacity: 0;
+}
+
+#second-slider-third-word-11-letter-out{
+    animation:slideout 1.2s;
+    opacity: 0;
+}
+
+#second-slider-third-word-12-letter-out{
+    animation:slideout 1.3s;
+    opacity: 0;
+}
+
+#second-slider-third-word-13-letter-out{
+    animation:slideout 1.4s;
+    opacity: 0;
+}
+
+#second-slider-third-word-14-letter-out{
+    animation:slideout 1.5s;
     opacity: 0;
 }
 
