@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './slider.css';
 import useInterval from 'use-interval';
-import laptop from "./images/laptop.png";
-import tv from "./images/tv.png";
+import laptop from "../images/laptop.png";
+import tv from "../images/tv.png";
 
 export const Slider = () => {
 

@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { NavBar } from './nav-bar';
 import { motion } from "framer-motion"
-import { Slider } from './slider';
+import { Slider } from './slider/slider';
+import { FirstBody } from './first-body/first-body';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
       />
       {/* <NavBar /> */}
       <Slider/>
+      <FirstBody/>
     </div>
   );
 }

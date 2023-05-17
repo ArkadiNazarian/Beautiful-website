@@ -1,0 +1,40 @@
+#first-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-text-stroke: 2px black;
+    color:#fdfbf3;
+    opacity: 10%;
+    letter-spacing: 100px;
+    font-style: italic;
+    margin-top: -20rem;
+}
+
+#word-1{
+    font-size: 20rem;
+}
+
+#word-2{
+    font-size: 20rem;
+}
+
+#word-3{
+    font-size: 20rem;
+}
+
+#word-4{
+    font-size: 20rem;
+}
+
+#word-5{
+    font-size: 20rem;
+}
+
+#word-6{
+    font-size: 20rem;
+}
+
+#word-7{
+    font-size: 20rem;
+}
