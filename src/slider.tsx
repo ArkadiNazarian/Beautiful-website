@@ -68,7 +68,7 @@ export const Slider = () => {
                 <p id={`${in_out ? "first-slider-third-word-19-letter" : "first-slider-third-word-19-letter-out"}`}>s:</p>
             </div>
             <div id="first-slider-forth-word">
-            <p id={`${in_out ? "first-slider-forth-word-1-letter" : "first-slider-forth-word-1-letter-out"}`}>S</p>
+                <p id={`${in_out ? "first-slider-forth-word-1-letter" : "first-slider-forth-word-1-letter-out"}`}>S</p>
                 <p id={`${in_out ? "first-slider-forth-word-2-letter" : "first-slider-forth-word-2-letter-out"}`}>a</p>
                 <p id={`${in_out ? "first-slider-forth-word-3-letter" : "first-slider-forth-word-3-letter-out"}`}>n</p>
                 <p id={`${in_out ? "first-slider-forth-word-4-letter" : "first-slider-forth-word-4-letter-out"}`}>l</p>
@@ -118,6 +118,13 @@ export const Slider = () => {
                 <p id={`${out_in ? "second-slider-third-word-14-letter" : "second-slider-third-word-14-letter-out"}`}>s</p>
             </div>
             <div id={`${out_in ? "second-slide-in-word-underline" : "second-slide-out-word-underline"}`}></div>
+            <div id="static-letter">
+                <p id="static-letter-1">L</p>
+                <p id="static-letter-2">E</p>
+                <p id="static-letter-3">E</p>
+                <p id="static-letter-4">R</p>
+            </div>
         </div>
+        
     )
 }
