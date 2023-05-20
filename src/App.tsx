@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './App.css';
 import { NavBar } from './nav-bar';
 import { motion } from "framer-motion"
 import { Slider } from './slider/slider';
 import { FirstBody } from './first-body/first-body';
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 
 function App() {
 
@@ -35,16 +36,27 @@ function App() {
     }
   }
 
+  const ref = useRef(null);
+
+  const options = {
+    smooth: true,
+    multiplier:0.3
+  } 
+
   return (
     <div className="App">
-      <motion.div
-        animate="default"
-        variants={variant}
-        className='cursor'
-      />
-      {/* <NavBar /> */}
-      <Slider/>
-      <FirstBody/>
+      <LocomotiveScrollProvider options={options} containerRef={ref}>
+      <main data-scroll-container ref={ref}>
+        <motion.div
+          animate="default"
+          variants={variant}
+          className='cursor'
+        />
+        {/* <NavBar /> */}
+        <Slider data-scroll-section />
+        <FirstBody data-scroll-section/>
+        </main>
+      </LocomotiveScrollProvider>
     </div>
   );
 }
