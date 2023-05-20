@@ -1,0 +1,20 @@
+#second-body{
+    width: 100%;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-image{
+    width: 40rem;
+}
+
+#second-image{
+    width: 40rem;
+}
+
+#planes{
+    transform: rotate(90deg);
+    transform-origin: 78% 0%;
+}
