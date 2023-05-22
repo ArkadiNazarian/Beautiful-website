@@ -1,20 +1,83 @@
-#second-body{
+#second-body {
     width: 100%;
-    display:flex ;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#first-image{
-    width: 40rem;
+#first-image {
+    width: 30rem;
 }
 
-#second-image{
-    width: 40rem;
+#second-image {
+    width: 30rem;
 }
 
-#planes{
+#planes {
     transform: rotate(90deg);
-    transform-origin: 78% 0%;
+    transform-origin: 70% 0%;
+    color: #a5d3ee;
+    letter-spacing: 20px;
+}
+
+#planes-word {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#first-line {
+    position: absolute;
+    left: 20rem;
+    bottom: 2rem;
+    width: 100rem;
+    height: 2px;
+    background-color: #a5d3ee;
+}
+
+#second-line {
+    position: absolute;
+    right: 20rem;
+    bottom: 2rem;
+    width: 30rem;
+    height: 2px;
+    background-color: #a5d3ee;
+}
+
+#first-let-img-first-line-word-underline {
+    height: 3px;
+    width: 0rem;
+    background-color: black;
+    animation:first_underline_out 1s cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+#first-image-content:hover>#first-let-img-first-line-word-underline {
+    animation: first_underline_in 1s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes first_underline_in {
+    from {
+
+        width: 0;
+    }
+
+    to {
+
+        width: 6rem;
+    }
+}
+
+@keyframes first_underline_out {
+    from {
+
+        width: 6rem;
+    }
+
+    to {
+
+        width: 0;
+    }
 }
