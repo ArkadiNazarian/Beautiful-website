@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import './App.css';
 import { NavBar } from './nav-bar';
 import { motion } from "framer-motion"
-import { Slider } from './slider/slider';
-import { FirstBody } from './first-body/first-body';
+import  Slider  from './slider/slider';
+import  FirstBody  from './first-body/first-body';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
-import { SecondBody } from './second-body/second-body';
+import  SecondBody  from './second-body/second-body';
 
 function App() {
 
@@ -30,13 +30,6 @@ function App() {
     }
   }, []);
 
-  const variant = {
-    default: {
-      x: mousePosition.x,
-      y: mousePosition.y,
-    }
-  }
-
   const ref = useRef(null);
 
   const options = {
@@ -48,11 +41,10 @@ function App() {
     <div className="App">
 
       <LocomotiveScrollProvider options={options} containerRef={ref}>
-      {/* <motion.div
-        animate="default"
-        variants={variant}
+      <motion.div
+        animate={{x:mousePosition.x+2,y:mousePosition.y+2}}
         className='cursor'
-      /> */}
+      />
         <main data-scroll-container ref={ref}>
           {/* <NavBar /> */}
           <Slider data-scroll-section />

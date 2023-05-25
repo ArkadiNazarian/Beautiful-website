@@ -1,6 +1,7 @@
+import React from 'react';
 import './first-body.css';
 
-export const FirstBody = () => {
+const FirstBody = () => {
 
     return (
         <div id="first-body" >
@@ -14,3 +15,5 @@ export const FirstBody = () => {
         </div>
     )
 }
+
+export default React.memo(FirstBody)

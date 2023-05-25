@@ -1,8 +1,9 @@
 import './second-body.css';
 import dessert from "../images/dessert.png";
+import React from 'react';
 
-export const SecondBody = () => {
-
+const SecondBody = () => {
+console.log("hhh")
     return (
         <div id="second-body" >
             <div id="first-image-content" data-scroll data-scroll-speed="1">
@@ -23,3 +24,5 @@ export const SecondBody = () => {
         </div>
     )
 }
+
+export default SecondBody
