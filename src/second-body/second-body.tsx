@@ -7,9 +7,10 @@ export const SecondBody = () => {
         <div id="second-body" >
             <div id="first-image-content" data-scroll data-scroll-speed="1">
                 <img src={dessert} id="first-image" alt="first" />
-                <p>QUÉ HACER</p>
-                <div id="first-let-img-first-line-word-underline"></div>
-                <p>Agenda Semanal. <br />Del 22 al 28 de <br />mayo</p>
+                <p id='hover-underline-animation-1'>QUÉ HACER</p>
+                <p id='hover-underline-animation-2'>Agenda Semanal.</p> 
+                <p id='hover-underline-animation-3'>Del 22 al 28 de</p>
+                <p id='hover-underline-animation-4'>mayo</p>
             </div>
             <div data-scroll data-scroll-speed="2" >
                 <div id="planes">

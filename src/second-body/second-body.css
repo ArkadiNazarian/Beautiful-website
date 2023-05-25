@@ -45,39 +45,102 @@
     background-color: #a5d3ee;
 }
 
-#first-let-img-first-line-word-underline {
-    height: 3px;
-    width: 0rem;
+#hover-underline-animation-1 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-1::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
     background-color: black;
-    animation:first_underline_out 1s cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.1s;
 }
 
-#first-image-content:hover>#first-let-img-first-line-word-underline {
-    animation: first_underline_in 1s cubic-bezier(0.4, 0, 0.2, 1);
-    animation-fill-mode: forwards;
+#first-image-content:hover>#hover-underline-animation-1::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
-@keyframes first_underline_in {
-    from {
-
-        width: 0;
-    }
-
-    to {
-
-        width: 6rem;
-    }
+#hover-underline-animation-2 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
-@keyframes first_underline_out {
-    from {
+#hover-underline-animation-2::after {
+    content: '';
+    position: absolute;
+    width: 55%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+}
 
-        width: 6rem;
-    }
+#first-image-content:hover>#hover-underline-animation-2::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
-    to {
+#hover-underline-animation-3 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
 
-        width: 0;
-    }
+#hover-underline-animation-3::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.3s;
+}
+
+#first-image-content:hover>#hover-underline-animation-3::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hover-underline-animation-4 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-4::after {
+    content: '';
+    position: absolute;
+    width: 15%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.4s;
+}
+
+#first-image-content:hover>#hover-underline-animation-4::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

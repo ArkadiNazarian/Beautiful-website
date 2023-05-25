@@ -41,22 +41,23 @@ function App() {
 
   const options = {
     smooth: true,
-    multiplier:0.3
-  } 
+    multiplier: 0.3
+  }
 
   return (
     <div className="App">
+
       <LocomotiveScrollProvider options={options} containerRef={ref}>
-      <main data-scroll-container ref={ref}>
-        <motion.div
-          animate="default"
-          variants={variant}
-          className='cursor'
-        />
-        {/* <NavBar /> */}
-        <Slider data-scroll-section />
-        <FirstBody data-scroll-section/>
-        <SecondBody data-scroll-section/>
+      {/* <motion.div
+        animate="default"
+        variants={variant}
+        className='cursor'
+      /> */}
+        <main data-scroll-container ref={ref}>
+          {/* <NavBar /> */}
+          <Slider data-scroll-section />
+          <FirstBody data-scroll-section />
+          <SecondBody data-scroll-section />
         </main>
       </LocomotiveScrollProvider>
     </div>
