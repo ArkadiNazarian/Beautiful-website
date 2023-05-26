@@ -8,10 +8,12 @@
 
 #first-image {
     width: 30rem;
+    transition: all 0.4s ease-in-out;
 }
 
 #second-image {
     width: 30rem;
+    transition: all 0.4s ease-in-out;
 }
 
 #planes {
@@ -47,14 +49,14 @@
 
 #hover-underline-animation-1 {
     position: relative;
-    font-size: xx-large;
+    font-size: large;
     font-weight: 600;
 }
 
 #hover-underline-animation-1::after {
     content: '';
     position: absolute;
-    width: 40%;
+    width: 24%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
@@ -143,4 +145,172 @@
 #first-image-content:hover>#hover-underline-animation-4::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+#first-image-content:hover>#first-image-bg>#first-image {
+    transform: scale(0.9);
+}
+
+#second-image-content:hover>#second-image-bg>#second-image {
+    transform: scale(0.9);
+}
+
+#hover-underline-animation-5 {
+    position: relative;
+    font-size: large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-5::after {
+    content: '';
+    position: absolute;
+    width: 24%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.1s;
+}
+
+#second-image-content:hover>#hover-underline-animation-5::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hover-underline-animation-6 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-6::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+}
+
+#second-image-content:hover>#hover-underline-animation-6::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hover-underline-animation-7 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-7::after {
+    content: '';
+    position: absolute;
+    width: 55%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.3s;
+}
+
+#second-image-content:hover>#hover-underline-animation-7::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hover-underline-animation-8 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-8::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.4s;
+}
+
+#second-image-content:hover>#hover-underline-animation-8::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hover-underline-animation-9 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-9::after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.5s;
+}
+
+#second-image-content:hover>#hover-underline-animation-9::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#hover-underline-animation-10 {
+    position: relative;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#hover-underline-animation-10::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.6s;
+}
+
+#second-image-content:hover>#hover-underline-animation-10::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#first-image-bg {
+    background-color: #a5d3ee;
+    display: flex;
+}
+
+#second-image-bg {
+    background-color: #a5d3ee;
+    display: flex;
 }
