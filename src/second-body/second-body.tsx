@@ -8,7 +8,7 @@ const SecondBody = () => {
             <div>
                 <div id="first-image-content" data-scroll data-scroll-speed="1">
                     <div id="first-image-bg">
-                        <img src={dessert} className="first-image" alt="first" data-scroll data-scroll-class="fadeIn" data-scroll-repeat="true"/>
+                        <img src={dessert} id="first-image" alt="first"/>
                     </div>
                     <p id='hover-underline-animation-1'>QUÉ HACER</p>
                     <p id='hover-underline-animation-2'>Agenda Semanal.</p>
