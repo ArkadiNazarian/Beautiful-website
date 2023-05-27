@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-#first-image {
+.first-image {
     width: 30rem;
     transition: all 0.4s ease-in-out;
 }
@@ -147,7 +147,7 @@
     transform-origin: bottom left;
 }
 
-#first-image-content:hover>#first-image-bg>#first-image {
+#first-image-content:hover>#first-image-bg>.first-image {
     transform: scale(0.9);
 }
 
@@ -313,4 +313,20 @@
 #second-image-bg {
     background-color: #a5d3ee;
     display: flex;
+}
+
+.fadeIn {
+    animation:in 2s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes in {
+    from {
+        transform: translateY(30%);
+        
+    }
+    to{
+        transform: translateY(0%);
+        
+    }
 }

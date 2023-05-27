@@ -17,7 +17,18 @@
 
 .fadeIn {
     opacity: 1;
-    transition: opacity 4s ;
+    animation:in 2s ;
+    animation-fill-mode: forwards;
 }
 
+@keyframes in {
+    from {
+        transform: translateY(-70%);
+        
+    }
+    to{
+        transform: translateY(0%);
+        
+    }
+}
 
