@@ -1,6 +1,5 @@
 import './second-body.css';
 import dessert from "../images/dessert.png";
-import React from 'react';
 
 const SecondBody = () => {
     return (

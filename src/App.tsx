@@ -6,6 +6,7 @@ import Slider from './slider/slider';
 import FirstBody from './first-body/first-body';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import SecondBody from './second-body/second-body';
+import ThirdBody from './third-body/third-body';
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
           <Slider data-scroll-section />
           <FirstBody data-scroll-section />
           <SecondBody data-scroll-section />
+          <ThirdBody data-scroll-section/>
         </main>
       </LocomotiveScrollProvider>
     </div>
