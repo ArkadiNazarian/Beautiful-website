@@ -26,3 +26,138 @@
 #image:hover {
     transform: scale(1.06, 1.06);
 }
+
+#second-word {
+    display: flex;
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    font-weight: 500;
+    z-index: 9;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#second-word-1{
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-1{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+}
+
+#second-word-2 {
+    margin-left: 0.25rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-2{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+#second-word-3 {
+    margin-left: 0.25rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-3{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+
+
+#second-word-4 {
+    margin-left: 1rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-4{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
+
+#second-word-5 {
+    margin-left: 0.25rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-5{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+#second-word-6 {
+    margin-left: 0.25rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-6{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+
+#second-word-7 {
+    margin-left: 0.25rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-7{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+
+#second-word-8 {
+    margin-left: 0.25rem;
+    color: #ff896a;
+    animation: hover_out 1s;
+}
+
+#second-word:hover > #second-word-8{
+    animation: hover_in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes hover_in {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-30%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(4%);
+        color: aliceblue;
+    }
+}
+
+@keyframes hover_out {
+    0% {
+        transform: translateY(0%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(4%);
+    }
+}
