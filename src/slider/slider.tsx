@@ -3,9 +3,8 @@ import './slider.css';
 import useInterval from 'use-interval';
 import laptop from "../images/laptop.png";
 import tv from "../images/tv.png";
-import React from 'react';
 
-const Slider = () => {
+export const Slider = () => {
 
     const [in_out, set_in_out] = useState<boolean>(true);
     const [out_in, set_out_in] = useState<boolean>(false);
@@ -129,5 +128,3 @@ const Slider = () => {
         
     )
 }
-
-export default React.memo(Slider)

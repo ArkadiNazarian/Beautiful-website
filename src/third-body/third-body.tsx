@@ -1,7 +1,7 @@
 import './third-body.css';
 import gallery from "../images/gallery.png";
 
-const ThirdBody = () => {
+export const ThirdBody = () => {
     return (
         <div id="third-body" >
             <img src={gallery} id="image" alt="first" />
@@ -23,5 +23,3 @@ const ThirdBody = () => {
         </div>
     )
 }
-
-export default ThirdBody

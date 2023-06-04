@@ -1,7 +1,7 @@
 import './second-body.css';
 import dessert from "../images/dessert.png";
 
-const SecondBody = () => {
+export const SecondBody = () => {
     return (
         <div id="second-body" >
             <div>
@@ -64,5 +64,3 @@ const SecondBody = () => {
         </div>
     )
 }
-
-export default SecondBody

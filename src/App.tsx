@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
-import { NavBar } from './nav-bar';
 import { motion } from "framer-motion"
-import Slider from './slider/slider';
-import FirstBody from './first-body/first-body';
+import {Slider} from './slider/slider';
+import {FirstBody} from './first-body/first-body';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
-import SecondBody from './second-body/second-body';
-import ThirdBody from './third-body/third-body';
+import {SecondBody} from './second-body/second-body';
+import {ThirdBody} from './third-body/third-body';
+import {ForthBody} from './forth-body/forth-body';
+import { Footer } from './footer/footer';
 
 function App() {
 
@@ -47,11 +48,12 @@ function App() {
           className='cursor'
         />
         <main data-scroll-container ref={ref}>
-          {/* <NavBar /> */}
           <Slider data-scroll-section />
           <FirstBody data-scroll-section />
           <SecondBody data-scroll-section />
           <ThirdBody data-scroll-section/>
+          <ForthBody data-scroll-section/>
+          <Footer/>
         </main>
       </LocomotiveScrollProvider>
     </div>
