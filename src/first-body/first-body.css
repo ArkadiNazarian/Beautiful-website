@@ -1,18 +1,48 @@
 #first-body{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-column: 8;
     -webkit-text-stroke: 2px black;
     color:#fdfbf4;
     opacity: 10%;
     letter-spacing: 100px;
     font-style: italic;
+    font-size: 10rem;
 }
 
-.word{
+.word-1{
     opacity: 0;
-    font-size: 20rem;
+    grid-column-start: 2;
+}
+
+.word-2{
+    opacity: 0;
+    grid-column-start: 3;
+}
+
+.word-3{
+    opacity: 0;
+    grid-column-start: 4;
+}
+
+.word-4{
+    opacity: 0;
+    grid-column-start: 5;
+}
+
+.word-5{
+    opacity: 0;
+    grid-column-start: 6;
+}
+
+.word-6{
+    opacity: 0;
+    grid-column-start: 7;
+}
+
+.word-7{
+    opacity: 0;
+    grid-column-start:8;
 }
 
 .fadeIn {
