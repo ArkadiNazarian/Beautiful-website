@@ -4,8 +4,8 @@ import dessert from "../images/dessert.png";
 export const SecondBody = () => {
     return (
         <div id="second-body" >
-            <div>
-                <div id="first-image-content" data-scroll data-scroll-speed="1" data-scroll-class="fadeIn" data-scroll-repeat="true">
+            <div data-scroll data-scroll-speed="5">
+                <div id="first-image-content">
                     <div id="first-image-bg">
                         <img src={dessert} id="first-image" alt="first" />
                     </div>
@@ -16,7 +16,7 @@ export const SecondBody = () => {
 
                 </div>
 
-                <div id="first-image-content" data-scroll data-scroll-speed="1" data-scroll-class="fadeIn" data-scroll-repeat="true">
+                <div id="first-image-content">
                     <div id="first-image-bg">
                         <img src={dessert} id="first-image" alt="first" />
                     </div>
@@ -28,7 +28,7 @@ export const SecondBody = () => {
                     <p id='hover-underline-animation-15'>Swatch x Basquiat</p>
                 </div>
             </div>
-            <div data-scroll data-scroll-speed="2" >
+            <div data-scroll data-scroll-speed="4" >
                 <div id="planes">
                     <div id="first-line"></div>
                     <p id="planes-word">PLANES</p>
@@ -36,7 +36,7 @@ export const SecondBody = () => {
                 </div>
             </div>
             <div>
-                <div>
+                <div >
                     <div id="second-image-content" data-scroll data-scroll-speed="1" data-scroll-class="fadeIn" data-scroll-repeat="true">
                         <div id="second-image-bg" >
                             <img src={dessert} id="second-image" alt="second" />

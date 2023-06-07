@@ -36,7 +36,7 @@ function App() {
 
   const options = {
     smooth: true,
-    multiplier: 0.5
+    multiplier: 0.2
   }
 
   return (

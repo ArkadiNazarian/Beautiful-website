@@ -1,7 +1,7 @@
 #first-body{
     width: 100%;
     display: grid;
-    grid-column: 8;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     -webkit-text-stroke: 2px black;
     color:#fdfbf4;
     opacity: 10%;
