@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
 import { motion } from "framer-motion"
-import {Slider} from './slider/slider';
-import {FirstBody} from './first-body/first-body';
+import { Slider } from './slider/slider';
+import { FirstBody } from './first-body/first-body';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
-import {SecondBody} from './second-body/second-body';
-import {ThirdBody} from './third-body/third-body';
-import {ForthBody} from './forth-body/forth-body';
+import { SecondBody } from './second-body/second-body';
+import { ThirdBody } from './third-body/third-body';
+import { ForthBody } from './forth-body/forth-body';
 import { Footer } from './footer/footer';
 
 function App() {
@@ -41,8 +41,7 @@ function App() {
 
   return (
     <div className="App">
-
-      <LocomotiveScrollProvider options={options} containerRef={ref}>
+      <LocomotiveScrollProvider options={options} containerRef={ref} watch={[]}>
         <motion.div
           animate={{ x: mousePosition.x + 2, y: mousePosition.y + 2 }}
           className='cursor'
@@ -51,9 +50,9 @@ function App() {
           <Slider data-scroll-section />
           <FirstBody data-scroll-section />
           <SecondBody data-scroll-section />
-          <ThirdBody data-scroll-section/>
-          <ForthBody data-scroll-section/>
-          <Footer/>
+          <ThirdBody data-scroll-section />
+          <ForthBody data-scroll-section />
+          <Footer data-scroll-section />
         </main>
       </LocomotiveScrollProvider>
     </div>

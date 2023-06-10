@@ -8,24 +8,24 @@ export const Slider = () => {
 
     const [in_out, set_in_out] = useState<boolean>(true);
     const [out_in, set_out_in] = useState<boolean>(false);
+    const [hover, set_hover] = useState<boolean>(false);
 
     useInterval(
         () => {
             set_in_out(!in_out)
             set_out_in(!out_in)
         },
-        5000,
+        !hover && 5000,
     )
-
 
     return (
         <div id="second-menu">
             <div id={`${in_out ? "slider-green-background" : "second-slider-green-background"}`} ></div>
             <div id={`${in_out ? "slider-blue-background" : "second-slider-blue-background"}`} ></div>
-            <img src={laptop} id={`${in_out ? "slider-first-image" : "second-slider-first-image"}`} alt='first' />
-            <img src={tv} id={`${in_out ? "slider-second-image" : "second-slider-second-image"}`} alt='second' />
-            <div id={`${in_out ? "slider-green-background-on-image" : "second-slider-green-background-on-image"}`}></div>
-            <div id={`${in_out ? "slider-blue-background-on-image" : "second-slider-blue-background-on-image"}`}></div>
+            <img src={laptop} id={`${in_out ? "slider-first-image" : "second-slider-first-image"}`} alt='first' onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)} />
+            <img src={tv} id={`${in_out ? "slider-second-image" : "second-slider-second-image"}`} alt='second' onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)} />
+            {/* <div id={`${in_out ? "slider-green-background-on-image" : "second-slider-green-background-on-image"}`}></div>
+            <div id={`${in_out ? "slider-blue-background-on-image" : "second-slider-blue-background-on-image"}`}></div> */}
             <div id="first-slider-first-word">
                 <p id={`${in_out ? "first-slider-word-1-letter" : "first-slider-word-1-letter-out"}`}>Q</p>
                 <p id={`${in_out ? "first-slider-word-2-letter" : "first-slider-word-2-letter-out"}`}>U</p>
@@ -118,13 +118,13 @@ export const Slider = () => {
                 <p id={`${out_in ? "second-slider-third-word-14-letter" : "second-slider-third-word-14-letter-out"}`}>s</p>
             </div>
             <div id={`${out_in ? "second-slide-in-word-underline" : "second-slide-out-word-underline"}`}></div>
-            <div id="static-letter">
+            {/* <div id="static-letter">
                 <p id="static-letter-1">L</p>
                 <p id="static-letter-2">E</p>
                 <p id="static-letter-3">E</p>
                 <p id="static-letter-4">R</p>
-            </div>
+            </div> */}
         </div>
-        
+
     )
 }
