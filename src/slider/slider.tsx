@@ -36,7 +36,7 @@ export const Slider = () => {
                 <p id={`${in_out ? "first-slider-word-7-letter" : "first-slider-word-7-letter-out"}`}>E</p>
                 <p id={`${in_out ? "first-slider-word-8-letter" : "first-slider-word-8-letter-out"}`}>R</p>
             </div>
-            <div id="first-slider-second-word">
+            <div id="first-slider-second-word" onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)}>
                 <p id={`${in_out ? "first-slider-second-word-1-letter" : "first-slider-second-word-1-letter-out"}`}>C</p>
                 <p id={`${in_out ? "first-slider-second-word-2-letter" : "first-slider-second-word-2-letter-out"}`}>h</p>
                 <p id={`${in_out ? "first-slider-second-word-3-letter" : "first-slider-second-word-3-letter-out"}`}>u</p>
@@ -46,7 +46,7 @@ export const Slider = () => {
                 <p id={`${in_out ? "first-slider-second-word-7-letter" : "first-slider-second-word-7-letter-out"}`}>o</p>
                 <p id={`${in_out ? "first-slider-second-word-8-letter" : "first-slider-second-word-8-letter-out"}`}>s,</p>
             </div>
-            <div id="first-slider-third-word">
+            <div id="first-slider-third-word" onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)}>
                 <p id={`${in_out ? "first-slider-third-word-1-letter" : "first-slider-third-word-1-letter-out"}`}>c</p>
                 <p id={`${in_out ? "first-slider-third-word-2-letter" : "first-slider-third-word-2-letter-out"}`}>l</p>
                 <p id={`${in_out ? "first-slider-third-word-3-letter" : "first-slider-third-word-3-letter-out"}`}>a</p>
@@ -67,7 +67,7 @@ export const Slider = () => {
                 <p id={`${in_out ? "first-slider-third-word-18-letter" : "first-slider-third-word-18-letter-out"}`}>a</p>
                 <p id={`${in_out ? "first-slider-third-word-19-letter" : "first-slider-third-word-19-letter-out"}`}>s:</p>
             </div>
-            <div id="first-slider-forth-word">
+            <div id="first-slider-forth-word" onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)}>
                 <p id={`${in_out ? "first-slider-forth-word-1-letter" : "first-slider-forth-word-1-letter-out"}`}>S</p>
                 <p id={`${in_out ? "first-slider-forth-word-2-letter" : "first-slider-forth-word-2-letter-out"}`}>a</p>
                 <p id={`${in_out ? "first-slider-forth-word-3-letter" : "first-slider-forth-word-3-letter-out"}`}>n</p>
@@ -88,7 +88,7 @@ export const Slider = () => {
                 <p id={`${out_in ? "second-slider-word-2-letter" : "second-slider-word-2-letter-out"}`}>9</p>
                 <p id={`${out_in ? "second-slider-word-3-letter" : "second-slider-word-3-letter-out"}`}>9</p>
             </div>
-            <div id="second-slider-second-word">
+            <div id="second-slider-second-word" onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)}>
                 <p id={`${out_in ? "second-slider-second-word-1-letter" : "second-slider-second-word-1-letter-out"}`}>D</p>
                 <p id={`${out_in ? "second-slider-second-word-2-letter" : "second-slider-second-word-2-letter-out"}`}>e</p>
                 <p id={`${out_in ? "second-slider-second-word-3-letter" : "second-slider-second-word-3-letter-out"}`}>s</p>
@@ -101,7 +101,7 @@ export const Slider = () => {
                 <p id={`${out_in ? "second-slider-second-word-10-letter" : "second-slider-second-word-10-letter-out"}`}>d</p>
                 <p id={`${out_in ? "second-slider-second-word-11-letter" : "second-slider-second-word-11-letter-out"}`}>o</p>
             </div>
-            <div id="second-slider-third-word">
+            <div id="second-slider-third-word" onMouseOver={() => set_hover(true)} onMouseLeave={() => set_hover(false)}>
                 <p id={`${out_in ? "second-slider-third-word-1-letter" : "second-slider-third-word-1-letter-out"}`}>m</p>
                 <p id={`${out_in ? "second-slider-third-word-2-letter" : "second-slider-third-word-2-letter-out"}`}>i</p>
                 <p id={`${out_in ? "second-slider-third-word-3-letter" : "second-slider-third-word-3-letter-out"}`}>t</p>

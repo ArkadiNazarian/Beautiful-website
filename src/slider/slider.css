@@ -284,14 +284,14 @@
     top: 10rem;
     left: 18rem;
     z-index: 1;
-    height: 40rem;
+    height: 70%;
     width: 0%;
     animation: slider 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #slider-second-image {
     position: absolute;
-    height: 40rem;
+    height: 70%;
     width: 60%;
     top: 10rem;
     left: 18rem;
@@ -299,7 +299,7 @@
 
 #second-slider-first-image {
     position: absolute;
-    height: 40rem;
+    height: 70%;
     width: 60%;
     top: 10rem;
     left: 18rem;
@@ -307,7 +307,7 @@
 
 #second-slider-second-image {
     position: absolute;
-    height: 40rem;
+    height: 70%;
     top: 10rem;
     left: 18rem;
     width: 0%;
